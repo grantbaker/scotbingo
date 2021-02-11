@@ -3,7 +3,8 @@ frontend:
   phases:
     build:
       commands:
-        - echo "built."
+        - pwd
+        - ls
   artifacts:
     baseDirectory: static
     files:
