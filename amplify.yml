@@ -3,10 +3,9 @@ frontend:
   phases:
     build:
       commands:
-        - pwd
-        - ls
+        - npm run-script build
   artifacts:
-    baseDirectory: static
+    baseDirectory: build
     files:
       - '**/*'
   cache:
