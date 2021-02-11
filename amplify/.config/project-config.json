@@ -2,7 +2,7 @@
   "providers": [
     "awscloudformation"
   ],
-  "projectName": "create-react-app-auth-amplify",
+  "projectName": "scotbingo",
   "version": "3.0",
   "frontend": "javascript",
   "javascript": {
